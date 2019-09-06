@@ -1,0 +1,43 @@
+/* Denna filen innerhåller css för borde fakta listan och tabellen */
+.facktalista{
+    list-style: disc;
+    font-size: 20px;
+}
+
+article ul{
+    margin-top: 0px;
+}
+
+
+table#t01 table#t01, table#t01 th, table#t01 td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table#t01 th, table#t01 td {
+	padding: 5px;
+	text-align: left;
+}
+table#t01{
+	width: 600px;
+	border-collapse: collapse;
+}
+
+
+table#t01 tr:nth-child(even){
+	background-color: rgb(255, 255, 153);
+}
+
+table#t01 tr:nth-child(odd){
+	background-color: rgb(19, 126, 73);
+	color:white;
+}
+
+table#t01 tr:nth-child(1){
+	background-color: rgb(239, 239, 239);
+	color: black;
+}
+
+table#t01 th:nth-child(2), table#t01 td:nth-child(2), table#t01 td:nth-child(3), table#t01 th:nth-child(3){
+	text-align: center;
+	width: 125px;
+}

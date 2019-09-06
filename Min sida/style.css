@@ -1,11 +1,14 @@
 body, html {
 	height: 100%;
 	margin: 0;
-  }
+	font-family: Arial;
+}
   
-  .bg {
+.bg {
 	/* The image used */
 	background-image: url("images/waterSide.jpg");
+	/* Backup color if image not load */
+	background-color: rgb(206, 232, 255);
   
 	/* Full height */
 	height: 100%; 
@@ -14,34 +17,89 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  }
 
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0%;
+}
 
-ul {
+.background-box{
+	background-color: rgba(240, 248, 255, 0.945);
+	width: auto;
+	height: 95%;
+	vertical-align: top;
+	position: relative;
+}
+
+article{
+	margin: 5px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 23px;
+	margin-bottom: 0px;
+}
+
+/* navigation bar */
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: rgb(94, 94, 94);
 }
   
-li {
+nav li {
 	float: left;
 }
   
-li a {
+nav li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-  
-li a:hover:not(.active) {
-	background-color: #111;
+
+nav li a:hover:not(.active) {
+	background-color: rgb(66, 66, 66);
 }
   
 .active {
-	background-color: #4CAF50;
+	background-color: rgb(76, 175, 170);
 }
 
+.w3Example{
+	position: absolute;
+	bottom: 1%;
+	overflow-y: scroll;
+	height: 600px;
+	border: 3px black solid;
+	margin: 1%;
+	background-color: aquamarine;
+}
+
+.W3Link{
+	float: right;
+}
+a h4{
+	margin: 0px;
+	margin-right: 10px;
+}
+
+a img{
+	margin: 0px;
+	margin-right: 10px;
+	float: right;
+	height: 100px;
+	width: auto;
+	border: 3px outset gray;
+}
+
+a img:hover{
+	border-style: inset;
+}
