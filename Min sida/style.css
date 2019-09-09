@@ -78,6 +78,7 @@ nav li a:hover:not(.active) {
 	background-color: rgb(76, 175, 170);
 }
 
+/* Class for the box containing the w3example */
 .w3Example{
 	position: absolute;
 	bottom: 1%;
@@ -88,6 +89,8 @@ nav li a:hover:not(.active) {
 	background-color: aquamarine;
 }
 
+
+/* the class for the link to w3 */
 .W3Link{
 	float: right;
 	position: absolute;
@@ -99,7 +102,7 @@ nav li a:hover:not(.active) {
 	margin-right: 10px;
 }
 
-a img{
+.W3Link img{
 	margin: 0px;
 	margin-right: 10px;
 	float: right;
@@ -108,6 +111,6 @@ a img{
 	border: 3px outset gray;
 }
 
-a img:hover{
+.W3Link img:hover{
 	border-style: inset;
 }
