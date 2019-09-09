@@ -90,9 +90,11 @@ nav li a:hover:not(.active) {
 
 .W3Link{
 	float: right;
-	bottom: 65%
+	position: absolute;
+	top: 60px;
+	right: 20px;
 }
-a h4{
+.W3Link h4{
 	margin: 0px;
 	margin-right: 10px;
 }
