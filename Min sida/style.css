@@ -2,6 +2,7 @@ body, html {
 	height: 100%;
 	margin: 0;
 	font-family: Arial;
+	
 }
   
 .bg {
@@ -29,14 +30,14 @@ body, html {
 }
 
 .background-box{
-	background-color: rgba(240, 248, 255, 0.9);
+	background-color: rgba(240, 248, 255, 0.87);
 	width: auto;
 	height: 95%;
 	vertical-align: top;
 	position: relative;
 }
 
-article{
+main{
 	margin: 5px;
 }
 
@@ -47,6 +48,14 @@ h1{
 h3{
 	font-size: 23px;
 	margin-bottom: 0px;
+}
+
+.background-boxZ{
+	background-color: rgba(240, 248, 255, 0);
+	width: auto;
+	height: 95%;
+	vertical-align: top;
+	position: relative;
 }
 
 /* navigation bar */
