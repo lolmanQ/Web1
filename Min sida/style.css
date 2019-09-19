@@ -35,6 +35,7 @@ body, html {
 	height: 95%;
 	vertical-align: top;
 	position: relative;
+	border-radius: 10px;
 }
 
 main{
