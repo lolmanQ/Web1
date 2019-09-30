@@ -1,0 +1,147 @@
+/* här skrivs style detta är css */
+body{
+	margin: 0;
+}
+
+html{
+	background-color: rgb(230, 253, 253);
+}
+
+/* items */
+.itemNav1{grid-area: nav;}
+.itemNav2{grid-area: nav;}
+
+.itemHeader{grid-area: header;}
+
+.itemMain{grid-area: main;}
+
+.itemAside{grid-area: aside;}
+
+.itemFooter{grid-area: footer;}
+
+
+.grid-container {
+	display: grid;
+	grid-gap: 8px;
+	background-color: rgb(230, 253, 253);
+	padding: 10px;
+}
+
+.home-grid{
+	grid-template-areas:
+	  'nav nav nav nav nav'
+	  'main main main main aside'
+	  'main main main main aside'
+	  'footer footer footer footer footer';
+	grid-template-columns: auto auto auto auto 20%;
+	grid-gap: 8px 30px;
+}
+
+.produkt-grid{
+	grid-template-areas:
+	  'header header header header'
+	  'nav main main main'
+	  'nav main main main'
+	  'footer footer footer footer';
+	grid-template-columns: 15% auto auto auto;
+	grid-gap: 15px 40px;
+}
+
+.about-grid{
+	grid-template-areas:
+	  'header header header header'
+	  'nav main main main'
+	  'nav main main main'
+	  'footer footer footer footer';
+	grid-template-columns: 15% auto auto auto;
+	grid-gap: 8px 60px;
+}
+
+main, nav, aside, footer, header{
+	border: 2px solid black;
+}
+
+header, footer{
+	text-align: center;
+}
+
+/* navegation 1 */
+nav.itemNav1 ul{
+	list-style-type: none;
+	display:grid;
+	justify-content: space-evenly;
+	grid-template-columns: 20% 20% 20%;
+	padding: 0;
+}
+
+nav.itemNav1 li a{
+	text-decoration: none;
+	color:black;
+	padding: 10px 30%;
+	border: 2px solid black;
+	text-align: center;
+}
+
+/* navegation 2 */
+nav.itemNav2 ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0 10px;
+}
+
+nav.itemNav2 li a{
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	padding: 10px 0;
+	display: block;
+	border: 2px solid black;
+	margin: 20px 0;
+}
+
+
+/* produkt container styling */
+.grid-container-produkts{
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: 100px 100px 100px 100px;
+}
+
+article.produkt{
+	padding: 10px;
+}
+
+article img{
+	width: 100%;
+	border-radius: 4px;
+}
+
+article p{
+	text-align: center;
+	font-size: 15px;
+	margin-top:0;
+}
+
+
+/* main */
+
+main.mainText{
+	padding: 15px;
+}
+
+main{
+	background: linear-gradient(rgb(97, 255, 247), rgb(19, 94, 255));
+	border: 4px solid black;
+}
+
+/* news feed */
+aside p{
+	font-size: 20px;
+	text-align: center;
+}
+
+/* footer */
+footer p{
+	font-size: 18px;
+	margin: 10px 0;
+}
