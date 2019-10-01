@@ -1,0 +1,49 @@
+body {
+	background-color: #455A64;
+	margin: 10px 5px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+}
+
+h1{
+	font-size:22px;
+	font-family: Arial;
+}
+
+.programText{
+	color:darkslateblue;
+	background-color: lemonchiffon;
+	text-align: center;
+}
+.programTextTankar{
+	text-align: right;
+}
+
+.linkText{
+	text-decoration: none;
+}
+
+section {
+	border-style: outset;
+	border-color: #ECEFF1;
+}
+    	
+section.a{
+	background-color: #ECEFF1;
+	height:200px;
+	width:400px;
+}
+section.b{
+	height: auto;
+	width: 300px;
+	background-color: #7986CB;
+	border-width: 4px;
+}
+
+section.b:hover {
+    border-style: inset;
+}
